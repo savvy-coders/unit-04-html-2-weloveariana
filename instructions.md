@@ -26,7 +26,6 @@ Apply the following requirements to the form:
 2. Use placeholders for the username field and provide the text "Enter your username".
 3. Add validation to the form fields as follows:
    - The username field is required.
-   - At least one fruit checkbox must be selected.
    - One gender radio button must be selected.
    - The country dropdown menu must have a selected option.
 4. Handle the form submission using JavaScript. When the form is submitted, display an alert with the values of the selected fields (username, fruits, gender, country).

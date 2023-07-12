@@ -1,0 +1,35 @@
+{
+  "name": "fullstackprepcourse-unit3-html1",
+  "version": "1.0.0",
+  "description": "Coding exercises to accompany the Front End Prep Curriculum for Savvy Coders Full Stack Web Development Bootcamp",
+  "main": "index.html",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savvy-coders/FS-Prep-Unit3-HTML1.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "coding",
+    "bootcamp",
+    "education",
+    "training",
+    "tech",
+    "jobs",
+    "skills"
+  ],
+  "author": "David Rodriguez for Savvy Coders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savvy-coders/FS-Prep-Unit3-HTML1/issues"
+  },
+  "homepage": "https://github.com/savvy-coders/FS-Prep-Unit3-HTML1#readme",
+  "devDependencies": {
+    "cypress": "^12.17.1",
+    "live-server": "^1.2.2"
+  }
+}
