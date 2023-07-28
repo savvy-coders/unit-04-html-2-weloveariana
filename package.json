@@ -1,5 +1,5 @@
 {
-  "name": "fullstackprepcourse-unit3-html1",
+  "name": "fullstackprepcourse-unit4-html2",
   "version": "1.0.0",
   "description": "Coding exercises to accompany the Front End Prep Curriculum for Savvy Coders Full Stack Web Development Bootcamp",
   "main": "index.html",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/savvy-coders/FS-Prep-Unit3-HTML1.git"
+    "url": "git+https://github.com/savvy-coders/FS-Prep-Unit4-HTML2.git"
   },
   "keywords": [
     "html",
