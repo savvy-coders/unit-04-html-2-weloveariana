@@ -6,3 +6,5 @@ node_modules
 .idea
 .env
 .parcel-cache
+/cypress/videos
+/cypress/screenshots
