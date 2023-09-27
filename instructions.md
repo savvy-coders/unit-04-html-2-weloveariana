@@ -33,6 +33,6 @@ Apply the following requirements to the form:
 
 ***Note: You can use inline JavaScript or an external script to handle the form submission. Don't worry about anything fancier than what you've learned in the curriculum so far - feel free to fake things out wherever the curriculum has left you high and dry. This is an important skill as well - recognizing where your "technical debt" is. Don't remember any? Don't sweat it! The JS is BONUS POINTS ONLY. We'll learn plenty of JavaScript soon enough!***
 
-***You'll also want to start with creating a boilerplate HTML using the ! emmet abbreviation auto-completion. If you don't remember how, just go to the html file and on the first line, type an exclamation point and hit enter. This will auto-fill the html file with the basic necessities for a simple html file. Don't forget to first change any details from the boilerplate before moving on to your coding challenge.***
+***You'll also want to start with creating a boilerplate HTML using the ! emmet abbreviation auto-completion. If you don't remember how, just go to the html file and on the first line, type an exclamation point and hit enter. This will auto-fill the html file with the basic necessities for a simple html file. Don't forget to first use the exclamation point, and then click the first drop down that appears to autocomplete the Emmet abbreviation to populate your boilerplate html before moving on to your coding challenge.***
 
 Good luck!
