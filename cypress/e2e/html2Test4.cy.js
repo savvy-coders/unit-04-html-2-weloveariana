@@ -1,14 +1,17 @@
 describe('Form validation and submission page', () => {
-    beforeEach(() => {
-      cy.visit('/index.html');
-    });
-  
-    it('has radio buttons for selecting a gender', () => {
-      cy.get('input[name=gender]')
-        .should('have.length', 3)
-        .each(($gender) => {
-          expect($gender.val()).to.be.oneOf(['male', 'female', 'other']);
-        });
-      cy.get('label[for=gender]').should('exist');
-    });
+  beforeEach(() => {
+    cy.visit('/index.html');
+  });
+
+  it('has a dropdown menu for selecting a country', () => {
+    cy.get('select[name=country]')
+      .should('exist')
+      .children()
+      .should('have.length', 4)
+      .each(($option, index) => {
+        if (index === 0) return;  // Skip the first option (placeholder)
+        expect($option.val()).to.be.oneOf(['usa', 'canada', 'uk']);
+      });
+    cy.get('label[for=country]').should('exist');
+  });
 });

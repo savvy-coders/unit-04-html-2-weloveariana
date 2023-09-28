@@ -3,12 +3,13 @@ describe('Form validation and submission page', () => {
     cy.visit('/index.html');
   });
 
-  it('has checkboxes for selecting favorite fruits', () => {
-    cy.get('input[name="fruits"]')
-      .should('have.length', 3)
-      .each(($fruit) => {
-        expect($fruit.val()).to.be.oneOf(['apple', 'banana', 'orange']);
-      });
-    cy.get('label[for=fruits]').should('exist');
+  it('has checkboxes for selecting favorite fruits and appropriate labels', () => {
+    const fruits = ['apple', 'banana', 'orange'];
+    
+    fruits.forEach((fruit) => {
+      cy.get(`input[name=fruits][value=${fruit}]`)
+        .should('exist');
+      cy.get(`label[for=${fruit}]`).should('exist');
+    });
   });
 });
