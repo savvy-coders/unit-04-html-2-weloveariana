@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/savvy-coders/FS-Prep-Unit3-HTML1#readme",
   "devDependencies": {
-    "cypress": "^12.17.1",
     "live-server": "^1.2.2"
   }
 }
